@@ -821,6 +821,8 @@ header{
 
 .boton--index {
     
+
+    
     background-color: #f9abff;
     color: white;
     text-align: center;
@@ -834,17 +836,13 @@ header{
     border-radius: 30px;
     
     cursor: pointer;
-
+    transition: all 0.5s;
 }
-.boton--index :hover{
+.boton--index:hover{
     background: #a308a1;
     box-shadow: 6px 13px 30px #0d010b ;
+    padding: 40px 130px;
 }
-
-
-
-
-
 
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -896,7 +894,7 @@ header{
     align-items: center;
     width: 350px;
     height: 600px;
-    background-color: #141414;
+    background-image: linear-gradient(to bottom, #f9abff,black ,black );
     border-radius: 70px;
     margin: 50px 10px;
 
@@ -947,7 +945,7 @@ header{
     justify-items: center;
     align-content: center;
     width: auto;
-    background-color: #f9abff;
+    background-image: linear-gradient(to top, #f9abff, black );
 }
 .sobreMi__imagenes{
     margin-top: 50px;
@@ -970,7 +968,7 @@ header{
     margin-bottom: 300px;
     
 }
-.sobreMi__texto p{
+.sobreMi__texto {
    
     color: white;
     font-family: 'Sansita Swashed', cursive;
@@ -1121,9 +1119,11 @@ header{
     border-radius: 30px;
     
     cursor: pointer;
-
+    transition: padding 0.5s;
 }
 .boton:hover{
     background: #a308a1;
     box-shadow: 6px 13px 30px #0d010b ;
+    
+    padding: 20px 60px;
 }
