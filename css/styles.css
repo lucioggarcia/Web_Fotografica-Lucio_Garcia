@@ -2,10 +2,7 @@
 html{
     background: #fcfcfc;
 }
-/*img{
-    max-width: 300px;
-    max-height: 300px;
-}*/
+
 @media(max-width:1200px){
     header{
         justify-content: stretch;
