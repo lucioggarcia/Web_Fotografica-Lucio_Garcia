@@ -1084,17 +1084,20 @@ header{
 
 
 .subtitulo h2{
-    padding: 40px;
+    padding: 50px;
     font-weight: bold;
     text-align: center;
     font-style: italic;
     font-family: 'Sansita Swashed', cursive;
     font-size: 50px;
-    height: auto;                                                   /*USE ESTA PARA TODOS LOS SUBTITULOS EXCEPTO PARA SOBREMI */
+    height: auto;                                                   
     width: auto;
     background: #ffd9ff;
-    border: #a308a1 5px outset;
-    margin-top: 20px;
+   
+    border-top: #a308a1 5px outset;
+    border-bottom: #a308a1 5px outset;
+    margin-bottom: 0;
+    
 }
 
 
@@ -1129,4 +1132,11 @@ a{
     min-height: 100vh;
     background: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),url(../img/imgpruebaindex.jpg) no-repeat center center fixed;
     background-size: cover;
+}
+.bg-rosa{
+    background-image: linear-gradient(to right,#f9abff, #f9abff,#ffd9ff ,#ffd9ff,white)
+}
+.bg-gradiente{
+   
+   background-image: linear-gradient(to top,#ffd9ff,#ffd9ff, #f9abff, black );
 }
