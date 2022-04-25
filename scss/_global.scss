@@ -36,7 +36,7 @@ a{
 
     h2{
         padding: 50px;
-        font-weight: bold;
+        font-weight: map-get($grosorfuente, grueso);
         text-align: center;
         font-style: italic;
         font-family: $fuente-secundaria;
