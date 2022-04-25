@@ -1,4 +1,3 @@
-/*-----------------------------------------------------------------------------------GLOBAL----------------------------------------------------------------------------*/
 html {
   background: #fcfcfc; }
 
@@ -49,6 +48,171 @@ a {
 .bg-gradiente {
   background-image: linear-gradient(to top, #ffd9ff, #ffd9ff, #f9abff, black); }
 
+#pagprincipal {
+  min-height: 100vh;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/imgpruebaindex.jpg) no-repeat center center fixed;
+  background-size: cover; }
+
+.boton--index {
+  font-size: 20px;
+  padding: 20px 50px;
+  transition: all 0.5s; }
+  .boton--index:hover {
+    background: #a308a1;
+    box-shadow: 6px 13px 30px #0d010b;
+    padding: 25px 70px; }
+
+header .header__logo {
+  display: flex;
+  justify-content: center;
+  max-height: 150px;
+  max-width: 250px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto; }
+
+#logo {
+  width: 250px;
+  height: 150px; }
+
+.servicios__container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around; }
+
+.servicios__tarjetas {
+  display: flex;
+  /*flex-wrap: nowrap;*/
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 600px;
+  background-image: linear-gradient(to bottom, #f9abff, black, black);
+  border-radius: 70px;
+  margin: 50px 10px; }
+
+.tarjetas__titulos {
+  text-align: center;
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Sansita Swashed', cursive;
+  padding-top: 15px; }
+
+.tarjetas__img img {
+  color: white;
+  width: auto;
+  height: 170px;
+  border-radius: 10px; }
+
+.tarjetas__texto {
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-weight: normal;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  margin-top: 20px; }
+
+.tarjetas__boton {
+  margin-top: 90px; }
+
+.sobreMi__container {
+  height: 1200px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  grid-column-gap: 20px;
+  justify-content: stretch;
+  justify-items: center;
+  align-content: center;
+  width: auto;
+  background-image: linear-gradient(to top, #f9abff, black); }
+
+.sobreMi__imagenes {
+  margin-top: 50px;
+  align-items: center; }
+
+.sobreMi__imagen {
+  align-items: center;
+  justify-self: center;
+  max-width: 800px;
+  max-height: 600px;
+  border-radius: 60px; }
+
+.sobreMi__textos {
+  align-self: center;
+  justify-self: center;
+  margin-bottom: 300px; }
+
+.sobreMi__texto {
+  color: white;
+  font-family: 'Sansita Swashed', cursive;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: center; }
+
+.form__contacto {
+  padding: 12px;
+  overflow: hidden;
+  color: gray; }
+  .form__contacto label {
+    display: block;
+    width: 90%;
+    margin-bottom: 8px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+  .form__contacto input {
+    display: block;
+    width: 90%;
+    margin-bottom: 8px;
+    margin-right: auto;
+    margin-left: auto;
+    border: none;
+    border-bottom: 2px solid #a308a1;
+    font-size: 18px;
+    outline: none; }
+  .form__contacto textarea {
+    display: block;
+    width: 90%;
+    margin-bottom: 8px;
+    margin-right: auto;
+    margin-left: auto;
+    border: none;
+    border-bottom: 2px solid #a308a1;
+    font-size: 18px;
+    outline: none; }
+
+.boton--submit input {
+  height: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.boton--submit:hover {
+  background-color: #a308a1; }
+
+.locacion {
+  width: auto;
+  height: 700px;
+  background-color: #f9abff; }
+
+.mapouter {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 70px; }
+
+/*-----------------------------------------------------------------------------------GLOBAL----------------------------------------------------------------------------*/
 @media (max-width: 1200px) {
   header {
     justify-content: stretch; }
@@ -391,173 +555,3 @@ a {
     font-size: 8px;
     line-height: 1.6;
     text-align: center; } }
-
-/*-----------------------------------------------------------------------------------HEADER----------------------------------------------------------------------------*/
-.header__logo {
-  display: flex;
-  justify-content: center;
-  max-height: 150px;
-  max-width: 250px;
-  overflow: hidden;
-  margin-bottom: 10px;
-  align-self: center;
-  margin-left: auto;
-  margin-right: auto; }
-
-#logo {
-  width: 250px;
-  height: 150px; }
-
-/*-----------------------------------------------------------------------------------FOOTER----------------------------------------------------------------------------*/
-/*-----------------------------------------------------------------------------------INDEX-----------------------------------------------------------------------------*/
-#pagprincipal {
-  min-height: 100vh;
-  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/imgpruebaindex.jpg) no-repeat center center fixed;
-  background-size: cover; }
-
-.boton--index {
-  font-size: 20px;
-  padding: 20px 50px;
-  transition: all 0.5s; }
-  .boton--index:hover {
-    background: #a308a1;
-    box-shadow: 6px 13px 30px #0d010b;
-    padding: 25px 70px; }
-
-/*------------------------------------------------------------------------------SERVICIOS------------------------------------------------------------------------------*/
-.servicios__container {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-around; }
-
-.servicios__tarjetas {
-  display: flex;
-  /*flex-wrap: nowrap;*/
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 350px;
-  height: 600px;
-  background-image: linear-gradient(to bottom, #f9abff, black, black);
-  border-radius: 70px;
-  margin: 50px 10px; }
-
-.tarjetas__titulos {
-  text-align: center;
-  color: white;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 30px;
-  font-family: 'Sansita Swashed', cursive;
-  padding-top: 15px; }
-
-.tarjetas__img img {
-  color: white;
-  width: auto;
-  height: 170px;
-  border-radius: 10px; }
-
-.tarjetas__texto {
-  color: white;
-  text-align: center;
-  font-style: italic;
-  font-weight: normal;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 16px;
-  margin-top: 20px; }
-
-.tarjetas__boton {
-  margin-top: 90px; }
-
-/*-----------------------------------------------------------------------------SOBRE MI -------------------------------------------------------------------------------*/
-.sobreMi__container {
-  height: 1200px;
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto auto;
-  grid-column-gap: 20px;
-  justify-content: stretch;
-  justify-items: center;
-  align-content: center;
-  width: auto;
-  background-image: linear-gradient(to top, #f9abff, black); }
-
-.sobreMi__imagenes {
-  margin-top: 50px;
-  align-items: center; }
-
-.sobreMi__imagen {
-  align-items: center;
-  justify-self: center;
-  max-width: 800px;
-  max-height: 600px;
-  border-radius: 60px; }
-
-.sobreMi__textos {
-  align-self: center;
-  justify-self: center;
-  margin-bottom: 300px; }
-
-.sobreMi__texto {
-  color: white;
-  font-family: 'Sansita Swashed', cursive;
-  font-style: italic;
-  font-size: 16px;
-  line-height: 1.8;
-  text-align: center; }
-
-/*--------------------------------------------------------------------------------CONTACTO-----------------------------------------------------------------------------*/
-.form__contacto {
-  padding: 12px;
-  overflow: hidden;
-  color: gray; }
-  .form__contacto label {
-    display: block;
-    width: 90%;
-    margin-bottom: 8px;
-    margin-right: auto;
-    margin-left: auto;
-    font-weight: bold;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
-  .form__contacto input {
-    display: block;
-    width: 90%;
-    margin-bottom: 8px;
-    margin-right: auto;
-    margin-left: auto;
-    border: none;
-    border-bottom: 2px solid #a308a1;
-    font-size: 18px;
-    outline: none; }
-  .form__contacto textarea {
-    display: block;
-    width: 90%;
-    margin-bottom: 8px;
-    margin-right: auto;
-    margin-left: auto;
-    border: none;
-    border-bottom: 2px solid #a308a1;
-    font-size: 18px;
-    outline: none; }
-
-.boton--submit input {
-  height: auto;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 10px;
-  padding-bottom: 10px; }
-
-.boton--submit:hover {
-  background-color: #a308a1; }
-
-.locacion {
-  width: auto;
-  height: 700px;
-  background-color: #f9abff; }
-
-.mapouter {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 70px; }

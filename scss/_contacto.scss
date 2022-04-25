@@ -1,0 +1,78 @@
+@import "colores";
+@import "fuentes";
+
+
+.form__contacto{
+
+    padding: 12px;
+    overflow: hidden;
+    color: gray;
+
+    label{
+
+        display: block;
+        width: 90%;
+        margin-bottom: 8px;
+        margin-right: auto;
+        margin-left: auto; 
+        font-weight: bold;
+        font-family: $fuente-principal;
+    }
+
+    input{
+
+        display: block;
+        width: 90%;
+        margin-bottom: 8px;
+        margin-right: auto;
+        margin-left: auto;
+        border: none;
+        border-bottom: 2px solid $color-secundario;
+        font-size: 18px;
+        outline: none;
+    }
+
+    textarea{
+        display: block;
+        width: 90%;
+        margin-bottom: 8px;
+        margin-right: auto;
+        margin-left: auto;
+        border: none;
+        border-bottom: 2px solid $color-secundario;
+        font-size: 18px;
+        outline: none;
+
+    }
+}
+
+.boton--submit{
+
+    input{
+        @extend .boton;
+        height:auto;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+       
+    }
+
+    &:hover{
+        background-color: $color-secundario;
+    }
+}
+
+.locacion{
+    width: auto;
+    height: 700px;
+    background-color: $color-principal;
+    
+}
+.mapouter{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+}

@@ -1,0 +1,55 @@
+@import "colores";
+@import "fuentes";
+
+.servicios__container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.servicios__tarjetas{
+
+    display: flex;
+    /*flex-wrap: nowrap;*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 600px;
+    background-image: linear-gradient(to bottom, #f9abff,black ,black );
+    border-radius: 70px;
+    margin: 50px 10px;
+
+}
+.tarjetas__titulos{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Sansita Swashed', cursive; 
+    padding-top: 15px;
+}
+.tarjetas__img img{
+    
+    color: white;
+    width: auto;
+    
+    height: 170px;
+    
+    border-radius: 10px;
+
+}
+.tarjetas__texto{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+.tarjetas__boton{
+    margin-top: 90px;
+}

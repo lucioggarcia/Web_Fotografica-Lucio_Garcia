@@ -1,0 +1,23 @@
+@import "colores";
+@import "fuentes";
+
+header{
+    .header__logo{
+        display: flex;
+        justify-content: center;
+        max-height: 150px;
+        max-width: 250px;
+        overflow: hidden;
+        margin-bottom: 10px;
+        align-self: center;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+}
+
+#logo{
+    width: 250px;
+    height: 150px;
+    
+}
