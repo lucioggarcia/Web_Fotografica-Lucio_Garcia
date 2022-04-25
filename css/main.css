@@ -5,7 +5,7 @@ html {
 a {
   text-decoration: none; }
 
-.boton {
+.boton, .boton--index, .boton--submit input {
   background-color: #f9abff;
   color: white;
   text-align: center;
@@ -19,7 +19,7 @@ a {
   border-radius: 30px;
   cursor: pointer;
   transition: padding 0.5s; }
-  .boton:hover {
+  .boton:hover, .boton--index:hover, .boton--submit input:hover {
     background: #a308a1;
     box-shadow: 6px 13px 30px #0d010b;
     padding: 20px 60px; }
@@ -416,18 +416,8 @@ a {
   background-size: cover; }
 
 .boton--index {
-  background-color: #f9abff;
-  color: white;
-  text-align: center;
-  text-decoration: none;
   font-size: 20px;
-  font-style: italic;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  height: 60px;
   padding: 20px 50px;
-  width: 140px;
-  border-radius: 30px;
-  cursor: pointer;
   transition: all 0.5s; }
   .boton--index:hover {
     background: #a308a1;
@@ -551,23 +541,12 @@ a {
     outline: none; }
 
 .boton--submit input {
-  border: none;
-  background-color: #f9abff;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  font-style: italic;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   height: auto;
-  width: 140px;
-  border-radius: 30px;
   display: block;
   margin-right: auto;
   margin-left: auto;
   padding-top: 10px;
-  padding-bottom: 10px;
-  cursor: pointer; }
+  padding-bottom: 10px; }
 
 .boton--submit:hover {
   background-color: #a308a1; }

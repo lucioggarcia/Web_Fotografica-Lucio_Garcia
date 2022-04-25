@@ -629,18 +629,9 @@ a{
 }
 
 .boton--index{
-    background-color: $color-principal;
-    color: $color-fuente;
-    text-align: center;
-    text-decoration: none;
+    @extend .boton;
     font-size: 20px;
-    font-style: italic;
-    font-family: $fuente-principal;
-    height:60px;
     padding: 20px 50px;
-    width: 140px;
-    border-radius: 30px;
-    cursor: pointer;
     transition: all 0.5s;
 
     &:hover{
@@ -801,23 +792,14 @@ a{
 .boton--submit{
 
     input{
-        border: none;
-        background-color: $color-principal;
-        color: $color-fuente;
-        text-align: center;
-        text-decoration: none;
-        font-size: 16px;
-        font-style: italic;
-        font-family: $fuente-principal;
+        @extend .boton;
         height:auto;
-        width: 140px;
-        border-radius: 30px;
         display: block;
         margin-right: auto;
         margin-left: auto;
         padding-top: 10px;
         padding-bottom: 10px;
-        cursor: pointer;
+       
     }
 
     &:hover{
