@@ -212,40 +212,13 @@ header .header__logo {
   margin-left: auto;
   margin-top: 70px; }
 
-/*-----------------------------------------------------------------------------------GLOBAL----------------------------------------------------------------------------*/
 @media (max-width: 1200px) {
   header {
     justify-content: stretch; }
+    header .header__logo {
+      justify-content: stretch; }
   .subtitulo h2 {
     font-size: 40px; }
-  #logo {
-    width: 200px;
-    height: 100px; }
-  .header__logo {
-    justify-content: stretch; }
-  .header__menu li a {
-    font-size: 10px;
-    padding: 20px 90px; }
-  .header__menu ul {
-    justify-content: stretch;
-    padding: 0; }
-  .footer__container {
-    justify-content: space-around; }
-  .footer__email {
-    padding-bottom: 20px; }
-  .footer__redesSociales {
-    padding-bottom: 20px; }
-  .footer__telefono {
-    padding-bottom: 20px; }
-  .footer__bottom p {
-    font-size: 14px; }
-  .section__index {
-    background-position: center;
-    max-height: 800px;
-    max-width: 100%; }
-  .index__titulo h1 {
-    font-size: 30px;
-    text-decoration: underline white; }
   .index__boton .boton--index {
     height: 30px;
     padding: 15px 50px;
@@ -300,47 +273,16 @@ header .header__logo {
 @media (max-width: 1024px) {
   header {
     justify-content: stretch; }
-  #logo {
-    width: 200px;
-    height: 100px; }
+    header .header__logo {
+      justify-content: stretch; }
   .subtitulo h2 {
     font-size: 40px; }
-  .header__logo {
-    justify-content: stretch; }
-  .header__menu li a {
-    font-size: 10px;
-    padding: 20px 90px; }
-  .header__menu ul {
-    justify-content: stretch;
-    padding: 0; }
-  /*-----------------------------------------------------------------------------FOOTER-------------------------------------------------------------------------------------------*/
-  .footer__container {
-    flex-direction: column;
-    justify-content: space-around; }
-  .footer__email {
-    padding-bottom: 20px; }
-  .footer__redesSociales {
-    padding-bottom: 20px; }
-  .footer__telefono {
-    padding-bottom: 20px; }
-  .footer__bottom p {
-    font-size: 14px; }
-  /*-----------------------------------------------------------------------------INDEX-------------------------------------------------------------------------------------------*/
-  .section__index {
-    background-position: center;
-    max-height: 500px;
-    max-width: 100%; }
-  .index__titulo h1 {
-    color: white;
-    font-size: 30px;
-    text-decoration: underline white; }
   .index__boton .boton--index {
     height: 30px;
     padding: 15px 50px;
     width: 70px;
     border-radius: 30px;
     font-size: 14px; }
-  /*-----------------------------------------------------------------------------SERVICIOS-------------------------------------------------------------------------------------------*/
   .servicios__container {
     flex-direction: column;
     justify-content: center;
@@ -353,7 +295,6 @@ header .header__logo {
   .tarjetas__img {
     max-width: auto;
     max-height: 800px; }
-  /*-----------------------------------------------------------------------------SOBRE MI-------------------------------------------------------------------------------------------*/
   .sobreMi__container {
     height: 1200px;
     display: grid;
@@ -390,39 +331,10 @@ header .header__logo {
 @media (max-width: 768px) {
   header {
     justify-content: stretch; }
-  #logo {
-    width: 150px;
-    height: 75px; }
+    header .header__logo {
+      justify-content: stretch; }
   .subtitulo h2 {
     font-size: 40px; }
-  .header__logo {
-    justify-content: stretch; }
-  .header__menu {
-    height: 200px; }
-  .header__menu li {
-    padding-bottom: 20px; }
-  .header__menu ul {
-    flex-direction: column;
-    justify-content: center;
-    padding: 0;
-    font-size: 16px; }
-  .footer__container {
-    flex-direction: column;
-    justify-content: space-around; }
-  .footer__email {
-    padding-bottom: 20px; }
-  .footer__redesSociales {
-    padding-bottom: 20px; }
-  .footer__telefono {
-    padding-bottom: 20px; }
-  .footer__bottom p {
-    font-size: 14px; }
-  .section__index {
-    background-position: center;
-    max-height: 500px;
-    max-width: 100%; }
-  .index__titulo h1 {
-    font-size: 30px; }
   .index__boton .boton--index {
     height: 30px;
     padding: 15px 50px;
@@ -477,34 +389,10 @@ header .header__logo {
 @media (max-width: 578px) {
   header {
     justify-content: stretch; }
-  #logo {
-    width: 150px;
-    height: 75px; }
+    header .header__logo {
+      justify-content: stretch; }
   .subtitulo h2 {
     font-size: 30px; }
-  .header__logo {
-    justify-content: stretch; }
-  .header__menu ul {
-    flex-direction: column;
-    justify-content: center;
-    padding: 0; }
-  .footer__container {
-    flex-direction: column;
-    justify-content: space-around; }
-  .footer__email {
-    padding-bottom: 20px; }
-  .footer__redesSociales {
-    padding-bottom: 20px; }
-  .footer__telefono {
-    padding-bottom: 20px; }
-  .footer__bottom p {
-    font-size: 14px; }
-  .section__index {
-    background-position: center;
-    max-height: 300px;
-    max-width: auto; }
-  .index__titulo h1 {
-    font-size: 20px; }
   .index__boton .boton--index {
     height: 30px;
     padding: 15px 50px;
