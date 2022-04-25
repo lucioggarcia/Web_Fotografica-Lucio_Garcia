@@ -5,6 +5,8 @@ a {
   text-decoration: none; }
 
 .boton, .boton--index, .boton--submit input {
+  width: 140px;
+  height: 60px;
   background-color: #f9abff;
   color: white;
   text-align: center;
@@ -12,9 +14,7 @@ a {
   font-size: 16px;
   font-style: italic;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  height: 60px;
   padding: 15px 40px;
-  width: 140px;
   border-radius: 30px;
   cursor: pointer;
   transition: padding 0.5s; }
@@ -83,13 +83,13 @@ header .header__logo {
   justify-content: space-around; }
 
 .servicios__tarjetas {
+  width: 350px;
+  height: 600px;
   display: flex;
   /*flex-wrap: nowrap;*/
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 350px;
-  height: 600px;
   background-image: linear-gradient(to bottom, #f9abff, black, black);
   border-radius: 70px;
   margin: 50px 10px; }
@@ -196,7 +196,8 @@ header .header__logo {
   margin-right: auto;
   margin-left: auto;
   padding-top: 10px;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  border-radius: 30px; }
 
 .boton--submit:hover {
   background-color: #a308a1; }

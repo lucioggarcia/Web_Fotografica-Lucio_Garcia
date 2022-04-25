@@ -1,5 +1,6 @@
 @import "colores";
 @import "fuentes";
+@import "mixins";
 
 header{
     .header__logo{
@@ -17,7 +18,5 @@ header{
 }
 
 #logo{
-    width: 250px;
-    height: 150px;
-    
+    @include sizes(250px, 150px);
 }

@@ -1,5 +1,6 @@
 @import "colores";
 @import "fuentes";
+@import "mixins";
 
 
 .form__contacto{
@@ -56,6 +57,7 @@
         margin-left: auto;
         padding-top: 10px;
         padding-bottom: 10px;
+        border-radius: 30px;
        
     }
 
