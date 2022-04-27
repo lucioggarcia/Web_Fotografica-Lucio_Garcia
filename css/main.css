@@ -219,9 +219,8 @@ header .header__logo {
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 30px; }
-
-.boton--submit:hover {
-  background-color: #a308a1; }
+  .boton--submit input:hover {
+    background-color: #a308a1; }
 
 .locacion {
   width: auto;
