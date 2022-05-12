@@ -222,11 +222,6 @@ header .header__logo {
   .boton--submit input:hover {
     background-color: #a308a1; }
 
-.locacion {
-  width: auto;
-  height: 700px;
-  background-color: #f9abff; }
-
 .mapouter {
   display: block;
   margin-right: auto;
@@ -252,9 +247,10 @@ header .header__logo {
     align-items: center; }
   .servicios__tarjetas {
     padding: 40px 90px;
-    max-width: fit-content; }
+    width: 500px;
+    height: 650px; }
   .tarjetas__titulos h3 {
-    font-size: 60px; }
+    font-size: 50px; }
   .tarjetas__img {
     max-width: auto;
     max-height: 800px; }
