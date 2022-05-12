@@ -285,7 +285,9 @@ header .header__logo {
     font-style: italic;
     font-size: 16px;
     line-height: 1.8;
-    text-align: center; } }
+    text-align: center; }
+  .boton:hover, .boton--index:hover, .boton--submit input:hover {
+    padding: 20px 50px; } }
 
 @media (max-width: 1024px) {
   header {
@@ -343,7 +345,9 @@ header .header__logo {
     font-style: italic;
     font-size: 16px;
     line-height: 1.8;
-    text-align: center; } }
+    text-align: center; }
+  .boton:hover, .boton--index:hover, .boton--submit input:hover {
+    padding: 20px 50px; } }
 
 @media (max-width: 768px) {
   header {
@@ -401,7 +405,12 @@ header .header__logo {
     font-style: italic;
     font-size: 12px;
     line-height: 1.8;
-    text-align: center; } }
+    text-align: center; }
+  .boton:hover, .boton--index:hover, .boton--submit input:hover {
+    padding: 20px 50px; }
+  iframe {
+    width: 450px;
+    height: 300px; } }
 
 @media (max-width: 578px) {
   header {
@@ -459,4 +468,7 @@ header .header__logo {
     font-style: italic;
     font-size: 8px;
     line-height: 1.6;
-    text-align: center; } }
+    text-align: center; }
+  iframe {
+    width: 400px;
+    height: 250px; } }

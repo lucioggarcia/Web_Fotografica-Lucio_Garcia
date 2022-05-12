@@ -273,6 +273,9 @@
     .boton:hover{
         padding: 20px 50px;
     }
+    iframe{
+        @include sizes(450px,300px);
+    }
 }
 @media (max-width:578px){
     header{
@@ -362,5 +365,8 @@
         line-height: 1.6;
         text-align: center;
         
+    }
+    iframe{
+        @include sizes(400px,250px);
     }
 }
