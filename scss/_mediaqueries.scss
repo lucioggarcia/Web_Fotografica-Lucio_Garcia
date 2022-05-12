@@ -86,6 +86,9 @@
         line-height: 1.8;
         text-align: center;
     }
+    .boton:hover{
+        padding: 20px 50px;
+    }
 
     
 
@@ -177,6 +180,9 @@
     line-height: 1.8;
     text-align: center;
 }
+.boton:hover{
+    padding: 20px 50px;
+}
     
 }
 @media(max-width:768px){
@@ -263,6 +269,9 @@
         font-size: 12px;
         line-height: 1.8;
         text-align: center;
+    }
+    .boton:hover{
+        padding: 20px 50px;
     }
 }
 @media (max-width:578px){
