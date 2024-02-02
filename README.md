@@ -1,4 +1,4 @@
-# Rosario Pagliero Fotografía
+# Fotografía
 
 Hola Mundo! Este es mi primer proyecto utilizando HTML CSS SASS!
 
